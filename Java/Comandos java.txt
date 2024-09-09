@@ -1,1 +1,5 @@
-
+JOptionPane nos ayuda a crear una ventana emergente para el usuario
+ademas el comando JOptionPane nos ayuda a simplificar el codigo
+Se importa JOptionPane de la siguiente manera:  import javax.swing.JOptionPane;
+Este comando es para indicarle al usuario que ingrese la informacion: Integer.parseInt(JOptionPane.showInputDialog("Digite un numero: ")); // Por ejemplo digite un numero
+Para generar un mensaje el siguiente codigo de esta manera: JOptionPane.showMessageDialog(null, "Aca dentro generara el mensaje"); 
