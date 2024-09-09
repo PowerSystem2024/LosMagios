@@ -10,4 +10,3 @@ Marcos Brochero
 Gonza Bucca
 Matias Riera
 Ernesto Riera
-Er como estas?
