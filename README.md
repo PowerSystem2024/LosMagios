@@ -1,4 +1,11 @@
 # LosMagios
 Somos estudiantes de la tecnicatura en programacion 
 
-Hola youtube
+Integrantes:
+Erwin Citadino
+Pablo Aparicio
+Ariadna Coronel
+Marcos Brochero
+Gonza Bucca
+Matias Riera
+Ernesto Riera
