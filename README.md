@@ -2,7 +2,6 @@
 Somos estudiantes de la tecnicatura en programacion 
 
 Integrantes:
-asdasd
 
 Erwin Citadino
 Pablo Aparicio
