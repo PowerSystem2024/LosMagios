@@ -1,25 +1,28 @@
-
-/* 
-Ejercicio 3: Leer numeros hasta que se introduzca un numero 0
-Para cada uno indicar si es par o impar
-Primero lo haremos con la clase scanner
-Luego con la clase JOptionPlane
-*/
+/*
+Ejecicio 3: Leer numeros hasta que se introduzca un cero
+Para cada uno indicar si es par o impar.
+Primero lo haremos con la clase Scanner
+Luego con la clase JOptionPane
+ */
 package Ciclos03;
 
 import javax.swing.JOptionPane;
 
 public class Ejercicio03 {
     public static void main(String[] args) {
-        int numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+        int numero;
+        
+        numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un numero: "));
         while(numero != 0){
-            if(numero %2 == 0){
-                JOptionPane.showMessageDialog(null, "El numero " + numero + " es PAR");
-            }else{
-                JOptionPane.showMessageDialog(null, "El numero " + numero + " es IMPAR");
+            if(numero % 2 == 0){
+                JOptionPane.showConfirmDialog(null, "El numero ingresado "+numero+" es PAR");
             }
-            numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese otro numero"));
+            else{
+                JOptionPane.showConfirmDialog(null, "El numero ingresado "+numero+" es IMPAR");
+            }
+            numero = Integer.parseInt(JOptionPane.showInputDialog("Digite otro numero: "));
         }
-        JOptionPane.showMessageDialog(null, "El numero " + numero + " finalizó el programa.");
+        JOptionPane.showConfirmDialog(null, "El numero ingresado es "+numero+" finaliza el programa");
     }
+ 
 }
